@@ -115,7 +115,8 @@ public class ArrayTasks {
         for (int num2 : arr) {
             if (num2 > 0) {
                 positiveNumbers[count] = num2;
-                count++;
+                counter++;
+
             }
         }
         return positiveNumbers;
@@ -131,4 +132,8 @@ public class ArrayTasks {
      * arr = [[3, 1, 2,], [3,2]] -> [[2, 3], [1, 2, 3]]
      * arr = [[5, 4], [7]]       -> [[7], [4, 5]]
      */
+    public int[][] sortRaggedArray(int[][] arr) {
+        return new int[0][0];
+    }
+
 }
